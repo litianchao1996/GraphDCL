@@ -173,7 +173,7 @@ if __name__ == "__main__":
     #path = F"./save/{model_save_name}" 
     #graph_encoder = torch.load(path)
     
-    num_epochs = 10000
+    num_epochs = 500
     alpha = 0.5
     optimizer = torch.optim.Adam(graph_encoder.parameters(), lr=0.00001)
 
